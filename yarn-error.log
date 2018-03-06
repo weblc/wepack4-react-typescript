@@ -1,0 +1,51 @@
+Arguments: 
+  C:\dev\nodejs\node.exe C:\dev\nodejs\node_modules\yarn\bin\yarn.js add webpack-cli -D
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\dev\nvm;C:\dev\nodejs;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Users\cui\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\cui\AppData\Local\Programs\Python\Python36\;C:\Users\cui\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\cui\AppData\Local\Yarn\bin;C:\Users\cui\AppData\Local\Android\Sdk\platform-tools;ANDROID_HOME;
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.11.5
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "webpack4-vue-vuex-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@types/react": "^16.0.40",
+      "@types/react-dom": "^16.0.4",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "awesome-typescript-loader": "^3.5.0",
+      "source-map-loader": "^0.2.3",
+      "typescript": "^2.7.2",
+      "webpack": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 151.101.228.133:443
+      at Object.exports._errnoException (util.js:1020:11)
+      at exports._exceptionWithHostPort (util.js:1043:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
